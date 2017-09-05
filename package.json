@@ -1,0 +1,29 @@
+{
+  "name": "babel-preset-env-2.0-sample",
+  "version": "0.1.0",
+  "description": "babel-preset-env 2.0 sample. transpile to each browser and each version of Node.js",
+  "main": "index.js",
+  "scripts": {
+    "build:current": "NODE_ENV=current babel index.js -o dist/current.js",
+    "build:node8": "NODE_ENV=node8 babel index.js -o dist/node8.js",
+    "build:node6": "NODE_ENV=node6 babel index.js -o dist/node6.js",
+    "build:node4": "NODE_ENV=node4 babel index.js -o dist/node4.js",
+    "build:chrome": "NODE_ENV=chrome babel index.js -o dist/chrome.js",
+    "build:chrome50": "NODE_ENV=chrome50 babel index.js -o dist/chrome50.js",
+    "build:Firefox": "NODE_ENV=Firefox babel index.js -o dist/Firefox.js",
+    "build:Firefox_beta": "NODE_ENV=Firefox_beta babel index.js -o dist/Firefox_beta.js",
+    "build:Safari": "NODE_ENV=Safari babel index.js -o dist/Safari.js",
+    "build:Edge": "NODE_ENV=Edge babel index.js -o dist/Edge.js",
+    "build:IE11": "NODE_ENV=IE11 babel index.js -o dist/IE11.js",
+    "build": "run-s build:*"
+  },
+  "author": "Masashi Hirano (https://github.com/shisama)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^7.0.0-alpha.20",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^2.0.0-alpha.20",
+    "npm-run-all": "^4.1.1"
+  }
+}
