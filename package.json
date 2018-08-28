@@ -20,10 +20,11 @@
   "author": "Masashi Hirano (https://github.com/shisama)",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^7.0.0-alpha.20",
-    "babel-loader": "^7.1.2",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^2.0.0-alpha.20",
-    "npm-run-all": "^4.1.1"
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "npm-run-all": "^4.1.3"
   }
 }

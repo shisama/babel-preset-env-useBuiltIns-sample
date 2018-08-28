@@ -1,24 +1,22 @@
 "use strict";
 
-var _regenerator = require("babel-runtime/regenerator");
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 
-var _regenerator2 = _interopRequireDefault(_regenerator);
+var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 
-var _asyncToGenerator2 = require("babel-runtime/helpers/asyncToGenerator");
+require("core-js/modules/es7.array.includes");
 
-var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
+require("regenerator-runtime/runtime");
 
-require("babel-polyfill/lib/regenerator-runtime/runtime");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _asyncToGenerator2 = _interopRequireDefault(require("@babel/runtime/helpers/asyncToGenerator"));
 
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-(0, _asyncToGenerator3.default)(
+(0, _asyncToGenerator2.default)(
 /*#__PURE__*/
-_regenerator2.default.mark(function _callee() {
+_regenerator.default.mark(function _callee() {
   var _i, number;
 
-  return _regenerator2.default.wrap(function _callee$(_context) {
+  return _regenerator.default.wrap(function _callee$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:

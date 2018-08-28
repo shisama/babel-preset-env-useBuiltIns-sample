@@ -3,7 +3,7 @@
     "current": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "targets": {
               "node": "current"
@@ -16,7 +16,7 @@
     "node8": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "targets": {
               "node": 8
@@ -29,7 +29,7 @@
     "node6": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "targets": {
               "node": 6
@@ -42,7 +42,7 @@
     "node4": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "targets": {
               "node": 4
@@ -51,12 +51,14 @@
           }
         ]
       ],
-      "plugins": ["transform-runtime"]
+      "plugins": [
+        "@babel/plugin-transform-runtime"
+      ]
     },
     "chrome": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "targets": {
               "chrome": 60
@@ -69,7 +71,7 @@
     "chrome50": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "targets": {
               "chrome": 50
@@ -82,7 +84,7 @@
     "Firefox": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "targets": {
               "firefox": 55
@@ -95,7 +97,7 @@
     "Firefox_beta": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "targets": {
               "firefox": 56
@@ -108,7 +110,7 @@
     "Safari": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "targets": {
               "Safari": 11
@@ -117,12 +119,14 @@
           }
         ]
       ],
-      "plugins": ["transform-runtime"]
+      "plugins": [
+        "@babel/plugin-transform-runtime"
+      ]
     },
     "Edge": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "targets": {
               "Edge": 15
@@ -131,12 +135,14 @@
           }
         ]
       ],
-      "plugins": ["transform-runtime"]
+      "plugins": [
+        "@babel/plugin-transform-runtime"
+      ]
     },
     "IE11": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "targets": {
               "ie": 11
@@ -145,7 +151,9 @@
           }
         ]
       ],
-      "plugins": ["transform-runtime"]
+      "plugins": [
+        "@babel/plugin-transform-runtime"
+      ]
     }
   }
 }
